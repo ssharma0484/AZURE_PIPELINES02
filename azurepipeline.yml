@@ -43,7 +43,7 @@ steps:
     inlineScript: |
       terraform init
 
-Validate
+#Validate
 - task: AzureCLI@2
   displayName: Terraform Validate
   inputs:
